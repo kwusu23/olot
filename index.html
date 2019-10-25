@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>home</title>
+    <style media="screen">
+      HTML {
+          background: url('waste.png');
+          width: 100%;
+          height: 100%;
+          position: relative;
+          background-size: cover;
+          background-position: center;
+      }
+      body {
+          width: 100%;
+          min-height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          margin: 0;
+          background: rgba(255,255,255,.5);
+      }
+
+
+      .heading{
+        width:50%;
+        display:table;
+        margin:0 auto;
+        margin-top: 200px;
+      }
+
+      h1{
+        text-align: center;
+        font-size: 70px;
+      }
+
+
+      .foot{
+        width:50%;
+        display:table;
+        margin:0 auto;
+      }
+
+      p{
+        text-align: center;
+        color:#fff;
+      }
+
+      .social{
+
+        width:50%;
+        display:table;
+        margin:0 auto;
+        margin-top: 21%;
+
+      }
+
+      img{
+        display:table;
+        margin:0 auto;
+        cursor: pointer;
+
+      }
+
+      .date{
+        color:#000;
+      }
+
+    </style>
+  </head>
+  <body>
+
+
+  <div class="heading">
+
+    <h1>Coming soon!</h1>
+
+  </div>
+
+  <div class="social">
+    <img src="twitter.png" alt="" class="socialIcon">
+  </div>
+
+  <div class="foot">
+    <p>&copysamuelboahen <span class="date">2019</span></p>
+
+  </div>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+      $('.socialIcon').mouseenter(function() {
+
+        $(this).attr("src","tweet.png");
+
+      });
+
+
+      $('.socialIcon').mouseleave(function() {
+
+        $(this).attr("src","twitter.png");
+
+      });
+
+    </script>
+  </body>
+</html>

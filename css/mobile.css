@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px){
+
+/* 812 */
+body{
+background-size: cover;
+
+}
+
+.info{
+  /* display:none; */
+}
+
+.user_detail{
+
+  display: table;
+  margin:0 auto;
+  width: 60%;
+  margin-top: 50px;
+}
+
+
+.interface{
+  display: none;
+  width:100%;
+  /* margin-right: 100px; */
+  border:1px solid red;
+}
+
+
+
+.user-table{
+
+  border:1px solid red;
+  width: 100%;
+}
+
+
+
+}
